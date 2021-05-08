@@ -530,7 +530,8 @@ img {
 }
 
 .footer .social-icon-list-item:hover,
-.footer .social-icon-list-item:focus {
+.footer .social-icon-list-item:focus,
+.footer_newsletter-email:hover {
     background: var(--main-color);
 }
 

@@ -436,41 +436,37 @@
             <div class="forms">
                 <p class="form-header">Zostaw swoje dane w formularzu poniżej</p>
                 <form class="modal_form">
-                    <label class="modal_form-label">
-                        <span class="modal_form-label-text">Imię</span>
-                        <div class="modal_form-input">
-                            <svg class="modal_form-icon">
-                                <use xlink:href="./images/symbol-defs.svg#person-black" />
-                            </svg>
-                            <input type="text" name="username" class="modal_form-input-text" required>
-                        </div>
-                    </label>
-                    <label class="modal_form-label">
-                        <span class="modal_form-label-text">Telefon</span>
-                        <div class="modal_form-input">
-                            <svg class="modal_form-icon">
-                                <use xlink:href="./images/symbol-defs.svg#phone-black" />
-                            </svg>
-                            <input type="tel" name="phone" class="modal_form-input-text" required>
-                        </div>
-                    </label>
-                    <label class="modal_form-label">
-                        <span class="modal_form-label-text">Email</span>
-                        <div class="modal_form-input">
-                            <svg class="modal_form-icon">
-                                <use xlink:href="./images/symbol-defs.svg#email-black" />
-                            </svg>
-                            <input type="email" name="email" class="modal_form-input-text" required>
-                        </div>
-                    </label>
-                    <label class="modal_form-label">
-                        <span class="modal_form-label-text">Komentarz</span>
-                        <textarea name="comment" class="modal_form-input-text modal_form-textarea"
-                            placeholder="Wprowadź tekst"></textarea>
-                    </label>
+                    <label class="modal_form-label">Imię</label>
+                    <div class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use xlink:href="./images/symbol-defs.svg#person-black" />
+                        </svg>
+                        <input type="text" name="username" class="modal_form-input-text" required>
+                    </div>
+
+                    <label class="modal_form-label">Telefon</label>
+                    <div class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use xlink:href="./images/symbol-defs.svg#phone-black" />
+                        </svg>
+                        <input type="tel" name="phone" class="modal_form-input-text" required>
+                    </div>
+
+                    <label class="modal_form-label">Email</label>
+                    <div class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use xlink:href="./images/symbol-defs.svg#email-black" />
+                        </svg>
+                        <input type="email" name="email" class="modal_form-input-text" required>
+                    </div>
+
+                    <label class="modal_form-label">Komentarz</label>
+                    <textarea name="comment" class="modal_form-input-text modal_form-textarea"
+                        placeholder="Wprowadź tekst"></textarea>
+
 
                     <label class="modal_form-regulations">
-                        <input type="checkbox" name="accept" class="modal_form-regulations-checkbox">
+                        <input type="checkbox" name="accept" class="modal_form-regulations-checkbox" required>
                         <span class="modal_form-regulations-text">Oświadczam, iż akceptuję <a href="#"
                                 class="modal_form-regulations-link">Regulamin</a>
                             i <a href="#" class="modal_form-regulations-link">Politykę Prywatności.</a> </span>
