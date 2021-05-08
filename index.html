@@ -404,16 +404,29 @@
                         </a>
                     </li>
                 </ul>
-
             </div>
 
-            div.
+            <div class="footer_newsletter">
+                <form class="footer_newsletter-form">
+                    <p class="footer_newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</p>
+                    <div class="footer_newsletter-input">
+                        <input type="email" name="email-newsletter" class="footer_newsletter-email"
+                            placeholder="E-mail">
+                        <button type="submit" class="btn-blue footer_newsletter-btn">
+                            Zapisz się
+                            <svg class="footer_newsletter-icon">
+                                <use xlink:href="./images/symbol-defs.svg#icon-send" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
 
     <!-- -----OKNO MODALNE----- -->
 
-    <div class="backdrop is-hidden." data-modal>
+    <div class="backdrop is-hidden" data-modal>
 
         <div class="modal">
             <div class="modal-close-btn">
@@ -422,7 +435,7 @@
 
             <div class="forms">
                 <p class="form-header">Zostaw swoje dane w formularzu poniżej</p>
-                <form action="" class="modal_form">
+                <form class="modal_form">
                     <label class="modal_form-label">
                         <span class="modal_form-label-text">Imię</span>
                         <div class="modal_form-input">
@@ -452,15 +465,15 @@
                     </label>
                     <label class="modal_form-label">
                         <span class="modal_form-label-text">Komentarz</span>
-                        <textarea type="text" name="comment" class="modal_form-input-text modal_form-textarea"
+                        <textarea name="comment" class="modal_form-input-text modal_form-textarea"
                             placeholder="Wprowadź tekst"></textarea>
                     </label>
 
                     <label class="modal_form-regulations">
-                        <input type="checkbox" name="accept" class="modal_form-regulations-checkbox" checked>
-                        <p class="modal_form-regulations-text">Oświadczam, iż akceptuję <a href="#"
+                        <input type="checkbox" name="accept" class="modal_form-regulations-checkbox">
+                        <span class="modal_form-regulations-text">Oświadczam, iż akceptuję <a href="#"
                                 class="modal_form-regulations-link">Regulamin</a>
-                            i <a href="#" class="modal_form-regulations-link">Politykę Prywatności.</a> </p>
+                            i <a href="#" class="modal_form-regulations-link">Politykę Prywatności.</a> </span>
                     </label>
 
                     <button class="btn-blue modal-btn-submit" type="submit">Wyślij</button>
