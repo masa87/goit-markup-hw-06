@@ -434,34 +434,34 @@
             </div>
 
             <div class="forms">
-                <p class="form-header">Zostaw swoje dane w formularzu poniżej</p>
                 <form class="modal_form">
-                    <label class="modal_form-label">Imię</label>
+                    <p class="form-header">Zostaw swoje dane w formularzu poniżej</p>
+                    <label for="user-name" class="modal_form-label">Imię</label>
                     <div class="modal_form-input">
                         <svg class="modal_form-icon">
                             <use xlink:href="./images/symbol-defs.svg#person-black" />
                         </svg>
-                        <input type="text" name="username" class="modal_form-input-text" required>
+                        <input type="text" name="username" class="modal_form-input-text" id="user-name" required>
                     </div>
 
-                    <label class="modal_form-label">Telefon</label>
+                    <label for="phone" class="modal_form-label">Telefon</label>
                     <div class="modal_form-input">
                         <svg class="modal_form-icon">
                             <use xlink:href="./images/symbol-defs.svg#phone-black" />
                         </svg>
-                        <input type="tel" name="phone" class="modal_form-input-text" required>
+                        <input type="tel" name="phone" class="modal_form-input-text" id="phone" required>
                     </div>
 
-                    <label class="modal_form-label">Email</label>
+                    <label for="email" class="modal_form-label">Email</label>
                     <div class="modal_form-input">
                         <svg class="modal_form-icon">
                             <use xlink:href="./images/symbol-defs.svg#email-black" />
                         </svg>
-                        <input type="email" name="email" class="modal_form-input-text" required>
+                        <input type="email" name="email" class="modal_form-input-text" id="email" required>
                     </div>
 
-                    <label class="modal_form-label">Komentarz</label>
-                    <textarea name="comment" class="modal_form-input-text modal_form-textarea"
+                    <label for="comment" class="modal_form-label">Komentarz</label>
+                    <textarea name="comment" class="modal_form-input-text modal_form-textarea" id="comment"
                         placeholder="Wprowadź tekst"></textarea>
 
 

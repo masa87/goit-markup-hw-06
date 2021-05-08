@@ -530,8 +530,7 @@ img {
 }
 
 .footer .social-icon-list-item:hover,
-.footer .social-icon-list-item:focus,
-.footer_newsletter-email:hover {
+.footer .social-icon-list-item:focus {
     background: var(--main-color);
 }
 
@@ -635,6 +634,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .form-header {
@@ -643,20 +643,16 @@ img {
     line-height: 23px;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 40px;
-    padding-bottom: 2px;
+    padding-bottom: 12px;
 }
 
 .modal_form {
-    width: 448px;
+    padding: 40px;
 }
 
 .modal_form-label {
-    text-align: left;
-}
-
-.modal_form-label-text {
     display: block;
+    text-align: left;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.167;
@@ -745,7 +741,6 @@ img {
 
 .modal-btn-submit {
     margin-top: 30px;
-    margin-bottom: 40px;
     text-align: center;
 }
 
