@@ -657,7 +657,7 @@ img {
     font-size: 12px;
     line-height: 1.167;
     letter-spacing: 0.01em;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 4px;
     color: var(--third-color);
 }
@@ -666,6 +666,7 @@ img {
     display: flex;
     align-items: center;
     height: 40px;
+    margin-bottom: 10px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
